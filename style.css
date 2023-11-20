@@ -1,0 +1,110 @@
+body{
+    background-image: url(ligths.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;      
+}
+ 
+ 
+ .container {
+    height: 586px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+button{
+    width: 78px;
+    height: 78px;
+    border-radius: 60px;
+    display: flex;
+    border: none;
+}
+
+P {
+    position: absolute;
+    left: 500px;
+    top: 180px;
+    font-size: 40px;
+    color: darkred;
+
+
+    
+}
+
+/* .container2 {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 60%;
+    gap: 4px;
+    overflow: hidden;
+    position: relative;
+    left: -35%;
+    top: -20%;
+    background-color: burlywood;
+    border: 1px solid black;
+    box-shadow: black 10px 10px 10px;
+} */
+
+.container2 {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    height: 60%;
+    gap: 5px;
+    overflow: hidden;
+    position: relative;
+    left: -360px;
+    top: -116px;
+    margin: 5px white;
+   
+    /* background-color: burlywood; */
+    /* border: 1px solid black; */
+    /* box-shadow: black 10px 10px 10px; */
+}
+
+div#sample {
+    width: 20%;
+    height: 100px;
+    background-color: rgb(105, 97, 97);
+    position: relative;
+    top: -98px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 24px;
+    color: aliceblue;
+}
+
+
+
+#div {
+    width: 100%;
+    background-color: darkgoldenrod;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 49px;
+    text-align: center;
+}
+
+
+
+.colorr{
+    background-color: red;
+}
+
+.colory{
+    background-color:yellow;
+
+}
+.colorg{
+    background-color: green;
+}
